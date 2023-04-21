@@ -35,7 +35,7 @@ func (app *application) renderTemplate(w http.ResponseWriter, r *http.Request, p
 	var t *template.Template
 	var err error
 
-	templateToRender := fmt.Sprintf("template/%s.page.tmpl", page)
+	templateToRender := fmt.Sprintf("templates/%s.page.tmpl", page)
 
 	_, templatteInMap := app.templateCache[templateToRender]
 
