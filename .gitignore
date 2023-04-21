@@ -1,3 +1,4 @@
 ./*.sql
 ./vscode/settings.json
+/.vscode/*
 *.log
